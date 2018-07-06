@@ -1,0 +1,42 @@
+*::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    background: black;
+    display:flex;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 1040px;
+}
+input {
+    margin:0;
+    font-size: 1.2em;
+    padding: 0.6em;
+    width: 1040px;
+}
+
+.search {
+    display:flex;
+    position: fixed;
+    width: 100%;
+
+}
+.search img {
+    margin: 0;
+    height: 4em;
+}
+
+.trending {
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trending h3 {
+    margin: 0;
+    color: grey;
+    font-size: 1em;
+}
