@@ -1,8 +1,9 @@
-*::after, *::before {
+* {
     box-sizing: border-box;
 }
 body {
     padding: 0;
+    margin:0;
     background: black;
     display:flex;
 
@@ -16,7 +17,7 @@ input {
     margin:0;
     font-size: 1.2em;
     padding: 0.6em;
-    width: 1040px;
+    width: 970px;
 }
 
 .search {
@@ -27,11 +28,13 @@ input {
 }
 .search img {
     margin: 0;
+    width: 70px;
     height: 4em;
 }
 
 .trending {
     margin-top: 5em;
+    margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -39,4 +42,14 @@ input {
     margin: 0;
     color: grey;
     font-size: 1em;
+}
+
+.container img{
+    margin: 0 16px 0 0;    
+    padding: 0;
+    object-fit: cover;
+}
+
+.container img:nth-child(4n) {
+    margin-right: 0;
 }
