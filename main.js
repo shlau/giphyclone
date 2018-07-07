@@ -10,7 +10,7 @@ window.onload = function() {
         const gifs = data['data'];
         gifs.forEach(element => {
             const url = element['images']['original_still']['url'];
-            result.push(`<img src=${url} style="max-width:248px; height:auto;">`)
+            result.push(`<img src=${url} style="width:248px; height:auto;">`)
         });
         content.innerHTML = result.join("");
     
