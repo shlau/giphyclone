@@ -14,9 +14,10 @@ body {
     width: 1040px;
 }
 
-.content {
+.item {
     column-count: 4;
     column-gap: 16px;
+    column-fill: atuo;
 }
 input {
     margin:0;
